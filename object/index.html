@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>1javascrip1</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	
+	<body>
+		<section class="content">
+			<div class="header">
+				<h2>Start JavaScript With Traing with live Project</h2>
+			</div>
+
+			<div id="pra">
+				
+			</div>
+			
+			<div class="mainContent">
+				<script>
+					var name={FirstName:"prolay",lastname:"mukherjee",age:"24"};
+					document.getElementById("pra").innerHTML=name.FirstName();
+
+					document.write("</br>");
+
+					document.getElementById("pra").innerHTML=typeof"prolay";
+
+
+
+					function myFunc() {
+						    var text = "Visit sattacademy!";
+						    var n = text.search(/sattacademy/i);
+						    document.getElementById("test").innerHTML = n;
+                          }
+
+
+
+				</script>
+
+				<button onclick="myFunc()">click</button>
+
+
+				<button onclick="document.getElementById('pra').innerHTML= new Date().getFullYear()">Year</button>
+				</br>
+				</br>
+				</br>
+				<button onclick="this.innerHTML= new Date().getFullYear()">Year?</button>
+
+			</div>
+			
+			<div class="footer">
+				<h2>www.prolaymukherjee.com</h2>
+			</div>
+			
+		</section>
+	</body>
+</html>
